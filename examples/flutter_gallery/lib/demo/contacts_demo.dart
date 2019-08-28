@@ -345,3 +345,10 @@ class ContactsDemoState extends State<ContactsDemo> {
     );
   }
 }
+
+void main() {
+  runApp(new MaterialApp(
+    title: "Contacts Demo",
+    home: new ContactsDemo(),
+  ));
+}
